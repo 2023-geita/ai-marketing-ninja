@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ChartBarIcon, TargetIcon, RobotIcon, RocketIcon } from 'lucide-react';
+import { ChartBarIcon, TargetIcon, BotIcon, RocketIcon } from 'lucide-react';
 import Layout from '@/components/Layout';
 
 const Index = () => {
@@ -67,7 +67,7 @@ const Index = () => {
               description="Reach your ideal audience with precision through AI-optimized targeting."
             />
             <FeatureCard
-              icon={<RobotIcon className="w-8 h-8" />}
+              icon={<BotIcon className="w-8 h-8" />}
               title="Automated Content"
               description="Generate engaging content at scale with our AI content engine."
             />
